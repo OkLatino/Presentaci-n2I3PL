@@ -584,6 +584,17 @@
                 font-size: 1.8rem;
             }
 
+            .etapa-header div[style*="display: inline-flex"] {
+                font-size: 0.9rem !important;
+                padding: 6px 15px !important;
+                margin-top: 8px !important;
+            }
+
+            .etapa-header div[style*="display: inline-flex"] svg {
+                width: 16px !important;
+                height: 16px !important;
+            }
+
             ul {
                 margin-top: 20px;
             }
@@ -757,6 +768,16 @@
             .etapa-title {
                 font-size: 1.6rem;
             }
+
+            .etapa-header div[style*="display: inline-flex"] {
+                font-size: 0.85rem !important;
+                padding: 5px 12px !important;
+            }
+
+            .etapa-header div[style*="display: inline-flex"] svg {
+                width: 14px !important;
+                height: 14px !important;
+            }
         }
     </style>
 </head>
@@ -832,7 +853,16 @@
             <div class="slide-content">
                 <div class="etapa-header">
                     <div class="etapa-numero">1</div>
-                    <h2 class="etapa-title">Primera Etapa</h2>
+                    <div>
+                        <h2 class="etapa-title">Primera Etapa</h2>
+                        <div style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, var(--primary-green), var(--dark-green)); color: #000; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; margin-top: 10px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Duración: 1 Mes
+                        </div>
+                    </div>
                 </div>
                 
                 <ul>
@@ -848,7 +878,16 @@
             <div class="slide-content">
                 <div class="etapa-header">
                     <div class="etapa-numero">2</div>
-                    <h2 class="etapa-title">Segunda Etapa</h2>
+                    <div>
+                        <h2 class="etapa-title">Segunda Etapa</h2>
+                        <div style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, var(--primary-green), var(--dark-green)); color: #000; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; margin-top: 10px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Duración: 2 Meses
+                        </div>
+                    </div>
                 </div>
                 
                 <ul>
@@ -865,7 +904,16 @@
             <div class="slide-content">
                 <div class="etapa-header">
                     <div class="etapa-numero">3</div>
-                    <h2 class="etapa-title">Tercera Etapa</h2>
+                    <div>
+                        <h2 class="etapa-title">Tercera Etapa</h2>
+                        <div style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, var(--primary-green), var(--dark-green)); color: #000; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; margin-top: 10px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Duración: 2 Meses
+                        </div>
+                    </div>
                 </div>
                 
                 <ul>
@@ -881,7 +929,16 @@
             <div class="slide-content">
                 <div class="etapa-header">
                     <div class="etapa-numero">4</div>
-                    <h2 class="etapa-title">Cuarta Etapa</h2>
+                    <div>
+                        <h2 class="etapa-title">Cuarta Etapa</h2>
+                        <div style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, var(--primary-green), var(--dark-green)); color: #000; padding: 8px 20px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; margin-top: 10px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Duración: 1 Mes
+                        </div>
+                    </div>
                 </div>
                 
                 <ul>
@@ -1087,5 +1144,4 @@
         updateSlidePosition();
     </script>
 </body>
-
 </html>
